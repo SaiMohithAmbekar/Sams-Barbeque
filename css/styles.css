@@ -1,0 +1,132 @@
+/* Css Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+}
+
+.left img {
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 2px;
+    height: 100px;
+    width: 125px;
+    filter: invert(100%);
+}
+
+.left label {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 115px;
+    font-family: 'Pacifico', cursive;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 10px auto;
+    /* border: 2px solid yellow; */
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 12px;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 14px;
+    padding: 4px 12px;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn {
+    margin: 5px 2px;
+    color: white;
+    background-color: black;
+    padding: 4px 16px;
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 104px 40px;
+    padding: 75px;
+    width: 32%;
+    border-radius: 20px;
+}
+
+.form-grp input {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 16px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    margin: 3px auto;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#preloader{
+    background: black url(/img/loader.gif) no-repeat center center; 
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
